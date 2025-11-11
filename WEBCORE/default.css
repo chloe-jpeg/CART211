@@ -11,6 +11,13 @@ body {
     margin-right: 50px;
 }
 
+window {
+    margin-top: 100px;
+    float: center;
+    width: 60%;
+    margin: 100 px;
+}
+
 header h1 {
     text-align: right;
     font-size: 25px;

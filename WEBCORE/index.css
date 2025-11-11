@@ -1,0 +1,19 @@
+body {
+    font-family: "PT Sans Narrow", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    margin-top: 0px;
+    float: right;
+    width: 60%;
+    margin-right: 50px;
+}
+
+#window {
+    margin-top: 100px;
+    float: center;
+    width: 60%;
+    margin: 100 px;
+}
