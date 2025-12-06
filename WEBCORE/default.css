@@ -1,4 +1,11 @@
 body {
+    border-top: 30px solid rgb(186, 186, 186);
+    background-color: #208c71;
+}
+
+/* body {} */
+
+body {
     font-family: "PT Sans Narrow", sans-serif;
     padding: 0;
     margin: 0;
@@ -88,44 +95,24 @@ footer {
     text-align: right;
     font-style: italic;
     color: #c5b8f9;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
 }
 
-footer a {
+/* footer a {
     text-decoration: none;
+    border-bottom: 10px solid rgb(255, 255, 255);
 }
 
-.books {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    max-width: 100%;
-    gap: 16px;
-}
 
-.books img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+.page-footer {
+    /* Optional: adds space between content and border */
+/* 
 
-.books>div {
-    text-align: center;
-    padding: 10px;
-}
 
-.books figure {
-    margin: 0;
-    color: #aa99ee;
-}
 
-article figure figcaption {
-    margin-top: 5px;
-    font-size: 12px;
-}
 
-table img {
-    max-width: 100%;
-    max-height: 100%;
-}
+
 
 @media (max-width: 480px) {
 
