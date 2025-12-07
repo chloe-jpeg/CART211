@@ -33,6 +33,16 @@ h1 {
     /* color: #dadce0 */
 }
 
+h2 {
+    font-family: "MS Sans Serif", sans-serif;
+    text-align: right;
+    margin: 0;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-right: 2%;
+
+}
+
 
 */ main {
     position: relative;
@@ -55,6 +65,12 @@ h1 {
     transform: translate(-50%, -50%);
     width: 50%;
     height: 40%;
+    overflow: auto;
+}
+
+.paragraph-box a {
+    padding: 15px;
+    font-size: 20px;
 
 }
 
@@ -66,15 +82,18 @@ h1 {
 }
 
 p {
+    font-size: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    word-wrap: normal;
+    /* text-align: center; */
 }
 
 .window-footer {
     padding: 5px;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
+    text-align: right;
 }
 
 nav {
@@ -114,6 +133,43 @@ footer {
     text-align: right;
 }
 
+
+.link-paragraph-box {
+    border-top: 10px solid #dadce0;
+    border-left: 5px solid #dadce0;
+    border-right: 5px solid #dadce0;
+    border-bottom: 10px solid #dadce0;
+    background-color: #dadce0;
+    margin: 50px auto;
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    box-shadow: inset -2px -2px 0 #808080, inset 2px 2px 0 #FFFFFF, -2px -2px 0 #000000, 2px 2px 0 #FFFFFF;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 55%;
+    height: 20%;
+    overflow: auto;
+}
+
+.link-window-buttons {
+    box-shadow: inset -1px -1px 0 #808080, inset 1px 1px 0 #FFFFFF, -1px -1px 0 #000000, 1px 1px 0 #FFFFFF;
+    background-color: #394dcd;
+    padding: 5px;
+    text-align: right;
+}
+
+.link-window-footer {
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+}
+
+.link-paragraph-box a {
+    padding: 15px;
+
+}
 
 
 
